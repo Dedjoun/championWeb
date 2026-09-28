@@ -1,0 +1,20 @@
+SITE WEB CHAMPION SECURITY SARL
+================================
+Technologies : PHP 7.4+ / 8, Bootstrap 5.3, Bootstrap Icons, HTML5, CSS3, JavaScript.
+
+TESTER EN LOCAL
+- Avec XAMPP/WAMP : le site est installé dans C:\xampp\htdocs\champion : démarrez Apache dans XAMPP puis ouvrez http://localhost/champion/
+- Ou en ligne de commande, dans ce dossier : php -S localhost:8000   puis http://localhost:8000
+
+MODIFIER LES INFORMATIONS
+- Téléphones, e-mail, réseaux sociaux, services, affiches : includes/config.php
+- Couleurs et styles : assets/css/style.css
+- Images : assets/img/
+
+FORMULAIRE DE CONTACT
+- Chaque demande est enregistrée dans data/messages.csv (ouvrable avec Excel).
+- Un e-mail est aussi envoyé à l'adresse EMAIL_DESTINATAIRE si l'hébergeur autorise la fonction mail().
+- Le dossier data/ est protégé par un .htaccess (serveurs Apache).
+
+PAGES
+index.php, a-propos.php, services.php, galerie.php (sensibilisation), contact.php
